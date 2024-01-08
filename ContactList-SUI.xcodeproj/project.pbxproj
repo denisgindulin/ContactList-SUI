@@ -11,6 +11,8 @@
 		22A5DD8F2B4C5B0800E31994 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5DD8E2B4C5B0800E31994 /* ContentView.swift */; };
 		22A5DD912B4C5B0900E31994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A5DD902B4C5B0900E31994 /* Assets.xcassets */; };
 		22A5DD942B4C5B0900E31994 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A5DD932B4C5B0900E31994 /* Preview Assets.xcassets */; };
+		22A5DD9B2B4C5B7700E31994 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5DD9A2B4C5B7700E31994 /* DataStore.swift */; };
+		22A5DD9D2B4C5F2C00E31994 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5DD9C2B4C5F2C00E31994 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		22A5DD8E2B4C5B0800E31994 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22A5DD902B4C5B0900E31994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22A5DD932B4C5B0900E31994 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22A5DD9A2B4C5B7700E31994 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		22A5DD9C2B4C5F2C00E31994 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				22A5DD8C2B4C5B0800E31994 /* ContactList_SUIApp.swift */,
 				22A5DD8E2B4C5B0800E31994 /* ContentView.swift */,
+				22A5DD9A2B4C5B7700E31994 /* DataStore.swift */,
+				22A5DD9C2B4C5F2C00E31994 /* Person.swift */,
 				22A5DD902B4C5B0900E31994 /* Assets.xcassets */,
 				22A5DD922B4C5B0900E31994 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A5DD8F2B4C5B0800E31994 /* ContentView.swift in Sources */,
+				22A5DD9B2B4C5B7700E31994 /* DataStore.swift in Sources */,
+				22A5DD9D2B4C5F2C00E31994 /* Person.swift in Sources */,
 				22A5DD8D2B4C5B0800E31994 /* ContactList_SUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
