@@ -36,6 +36,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		228696E72B4C834A00984BCB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22A5DD9C2B4C5F2C00E31994 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		228696E82B4C837B00984BCB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				22A5DD9A2B4C5B7700E31994 /* DataStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		228696E92B4C839600984BCB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22A5DD902B4C5B0900E31994 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		22A5DD802B4C5B0700E31994 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +81,9 @@
 			children = (
 				22A5DD8C2B4C5B0800E31994 /* ContactList_SUIApp.swift */,
 				22A5DD8E2B4C5B0800E31994 /* ContentView.swift */,
-				22A5DD9A2B4C5B7700E31994 /* DataStore.swift */,
-				22A5DD9C2B4C5F2C00E31994 /* Person.swift */,
-				22A5DD902B4C5B0900E31994 /* Assets.xcassets */,
+				228696E82B4C837B00984BCB /* Services */,
+				228696E72B4C834A00984BCB /* Models */,
+				228696E92B4C839600984BCB /* Resources */,
 				22A5DD922B4C5B0900E31994 /* Preview Content */,
 			);
 			path = "ContactList-SUI";
